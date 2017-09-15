@@ -1,0 +1,85 @@
+.footer {
+    position: relative;
+    float: right;
+    right: 73%;
+    top: 46%;
+
+    width: 27%;
+
+    font-family: monospace;
+    font-size: 1.1em;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.website {
+    position: relative;
+    float: left;
+    
+    width: 34%;
+    
+    text-align: right;
+}
+
+.verticalDivider {
+    position: relative;
+    float: left;
+    
+    width: 4%;
+    
+    padding-left: 1.1%;
+    padding-right: 1.1%;
+    
+    text-align: center;
+}
+
+.jobprofile {
+    position: relative;
+    float: left;
+    
+    width: 55%;
+    
+    text-align: left;
+}
+
+.website, .jobprofile {
+    position: relative;
+    top: 5%;
+
+    font-size: 0.9em;
+}
+
+.website a, .jobprofile a {
+    color: gray;
+    text-decoration: underline;
+}
+
+.website a:hover, .jobprofile a:hover {
+    color: #666666;
+}
+
+.isOnlineOrOffline_availability {
+    position: absolute;
+    float: right;
+    right: -260%;
+    top: -220%;
+    
+    width: 53%;
+    height: 223%;
+    
+    color: transparent;
+	border-radius: 44%;
+    
+    font-family: monospace;
+    font-size: 0.9em;
+    
+    padding-left: 0.5em;
+    padding-top: 0.4em;
+    padding-right: 0.5em;
+    padding-bottom: 0.1em;
+    
+    text-align: center;
+    text-transform: uppercase;
+}

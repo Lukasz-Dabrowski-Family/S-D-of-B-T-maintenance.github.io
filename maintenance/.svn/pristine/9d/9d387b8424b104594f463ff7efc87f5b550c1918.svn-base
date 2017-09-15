@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="google" content="notranslate" />
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="google-site-verification" content="yjL-hyfFWVeLZvG45lFL3u-4_4U3bKDv9K0HGxkvu0M" />
+    <meta name="description" content="Oferta dotyczy tworzenia, modyfikowania i utrzymywania internetowych wizytówek - prostych stron www - dla firm oraz osób prywatnych również w wersji mobilnej." />
+    <title>Łukasz Dąbrowski profesjonalne wizytówki - oryginalne strony www dla firm zgodne ze standardem W3C</title>
+    <script src="../js/external-libraries/jquery-2.1.4.min.js"></script>
+    <script src="../js/project-libraries/browser-utility-0.0.8.js"></script>
+    <script src="../js/modules/offerInfo.js"></script>
+    <link href="../css/loaders/offerLoader.css" type="text/css" rel="stylesheet" />
+</head>
+<body onload="offerInfo.loadApplicationModule()">
+
+    <div class="main">
+
+        <div class="header">
+            Zamawiając projekt w mojej firmie, otrzymujesz co następuje:
+        </div>
+
+        <div class="frame">
+
+            <div class="content">
+                <div class="offerItemList">
+                    <ol>
+                        <li>oryginalny design stworzony od zera według wymagań klienta</li>
+                        <li>support przez czas określony w umowie</li>
+                        <li><strong>bardzo</strong> konkurencyjne ceny</li>
+                        <li>profesjonalny kod z naciskiem na wydajność oraz jakość zgodny z najnowszymi standardami W3C</li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="offsoftware_services">
+                Zakres usług pozaprogramistycznych (<strong>tylko i wyłącznie na terenie Krakowa</strong>) dostępny jest w cenniku poniżej:<br /><a href="../download/cennik.pdf" download="Cennik usług informatycznych DABROWSKI SOFTWARE DEVELOPMENT.pdf"> cennik (pdf)</a> | <a href="../download/cennik.doc" download="Cennik usług informatycznych DABROWSKI SOFTWARE DEVELOPMENT.doc"> cennik (doc 97-2003)</a>
+            </div>    
+            
+            <div class="contact">
+                Jeśli oferta przyciągneła Twoją uwagę, po prostu się ze mną skontaktuj :)
+            </div>
+
+            <div class="phone">
+                telefonicznie: <a href="javascript:void(0)">(+48) 506 942 743</a>
+            </div>
+            <div class="email">
+                drogą mailową: <a href="mailto:contact@lukaszdabrowski.com">contact@lukaszdabrowski.com</a>
+            </div>
+            <div class="open_close_hours">
+                Godziny pracy: 8.00 - 20.00 (poniedziałek - niedziela)
+            </div>
+
+            <div class="company">
+                <div class="details">
+                    Dane firmy:
+                </div>
+                <div class="ceidg">
+                    CEIDG:
+                    <div class="inline company_content"><a href="../download/ceidg.pdf" download="Potwierdzenie wpisu do CEIDG">wpis do CEIDG (pdf)</a></div>
+                </div>
+                <div class="regon">
+                    REGON:
+                    <div class="inline company_content"><a href="../download/regon.pdf" download="Potwierdzenie nadania REGON">wpis do REGON (pdf)</a></div>
+                </div>
+                <div class="nip">
+                    NIP:
+                    <div class="inline company_content"><a href="../download/nip.pdf" download="Potwierdzenie nadania NIP">nadanie NIP (pdf)</a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="inline website"><a href="http://info.lukaszdabrowski.com">wstecz</a></div>
+            <div class="inline verticalDivider">|</div>
+            <div class="inline jobprofile"><a href="http://jobprofile.lukaszdabrowski.com">profil zawodowy</a></div>
+            <div class="inline isOnlineOrOffline_availability"></div>
+        </div>
+    </div>
+    <script src="../js/modules/my-google-analytics.js"></script>
+</body>
+</html>

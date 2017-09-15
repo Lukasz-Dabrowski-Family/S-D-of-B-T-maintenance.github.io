@@ -1,0 +1,52 @@
+body {
+    position: relative;
+
+    min-width: 20em;
+    
+    background-color: #1976C8;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    position: relative;
+    
+    width: 100%;
+
+    margin-top: 2%;
+}
+
+.frame {
+    position: relative;
+    float: left;
+
+    width: 100%;
+
+    color: whitesmoke;
+
+    font-family: 'Black Ops One', cursive;
+    font-size: 1.8em;
+
+    letter-spacing: 6px;
+
+    margin: auto;
+    
+    text-align: center;
+}
+
+.logo {
+	position: relative;
+    float: left;
+    left: 45%;
+
+    clear: left;
+
+	width: 148px;
+	height: 98px;
+
+    background-size: 100% 98px;
+	background-image: url('../images/logo.png');
+
+    margin-top: 2%;
+}

@@ -1,0 +1,8 @@
+<?php
+ $file = '../../info/.htaccess';
+ file_put_contents($file, "", LOCK_EX);
+ 
+ $currentDirectory = '../../maintenance';
+ $newDirectory = '../../maintenance_';
+ rename($currentDirectory, $newDirectory);
+?>

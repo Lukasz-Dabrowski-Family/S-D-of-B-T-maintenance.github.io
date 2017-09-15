@@ -1,0 +1,65 @@
+(
+ function (window) {
+    var self = this;
+    var startWorkHour = 8;
+    var endWorkHour = 20;
+
+    function displayMessageForNotSupportedBrowser() {
+        document.getElementsByTagName("body")[0].innerHTML = "<div class='notSupported'>This site does not work correctly under this browser yet.<br />Please use Google Chrome, Opera, or Safari instead.</div>";
+    }
+
+    function showPageInternal() {
+        $("body").css("visibility", "visible");
+    }
+    
+    function updateCurrentAvailabilityInternal() {
+                                var currentHour = parseInt(new Date().getHours());
+                                if(currentHour >= startWorkHour && currentHour <= endWorkHour) {
+                                    $(".now").css("font-size", "1.2em");
+                                    $(".now").css("color", "black");
+                                    $(".isOnlineOrOffline_availability").css("color", "green");
+                                    $(".isOnlineOrOffline_availability").css("box-shadow", "0 1px 46px #009900");
+                                    $(".isOnlineOrOffline_availability").prop("innerHTML", "t e r a z<br />o t w a r t e");
+                                    setTimeout(createDubleLayerShadowInternal, 2000);
+                                    setTimeout(createTripleLayerShadowInternal, 4000);
+                                }
+                                else {
+                                    $(".now").css("font-size", "1.2em");
+                                    $(".now").css("color", "black");
+                                    $(".isOnlineOrOffline_availability").css("color", "red");
+                                    $(".isOnlineOrOffline_availability").css("box-shadow", "0 1px 46px red");
+                                    $(".isOnlineOrOffline_availability").prop("innerHTML", "t e r a z<br />z a m k n i ę t e");
+                                }
+    }
+    
+    function createDubleLayerShadowInternal() {
+                                    $(".isOnlineOrOffline_availability").css("box-shadow", "0 1px 46px #009900, 0 1px 50px #666666");
+    }
+   
+    function createTripleLayerShadowInternal() {
+                                    $(".isOnlineOrOffline_availability").css("box-shadow", "0 1px 46px #009900, 4px 5px 50px #a4cd98, 0 1px 54px #00134d");
+    }   
+    
+    function checkOnlineStatusInternal() {
+        setInterval(updateCurrentAvailabilityInternal, 6000);
+    }
+
+    //public api
+    self.loadApplicationModule = function () {
+        if (activeBrowser.browserUtility.isMobile) {
+            activeBrowser.browserUtility.redirectToMobileVersion();
+        }
+
+        if (activeBrowser.browserUtility.firefox || activeBrowser.browserUtility.ie || activeBrowser.browserUtility.microsoftEdge) {
+            displayMessageForNotSupportedBrowser();
+        }
+        
+        showPageInternal();
+        checkOnlineStatusInternal();
+        updateCurrentAvailabilityInternal();
+    };
+
+
+    window.offerInfo = window.offerInfo || self;
+ }
+)(window)
