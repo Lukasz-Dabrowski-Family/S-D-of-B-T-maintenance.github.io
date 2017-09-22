@@ -17,7 +17,7 @@
     // private functions
 
     function getIntervalOrDefault_Internal() {
-        var hash_value_of_interval = 60;
+        var hash_value_of_interval = 1000;
         
         var hash = location.hash.substring(1).trim();
         if(hash.length > 0) {
