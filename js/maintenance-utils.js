@@ -28,7 +28,7 @@
     }
 
     function tryAccessLandingPage_Internal() {
-        window.location.href = _landingPage;
+        //window.location.href = _landingPage;  :D
     }
 
     function checkWebsiteAvailability_Internal() {
